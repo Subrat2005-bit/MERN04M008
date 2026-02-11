@@ -1,0 +1,45 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 40px;
+    height:40px;
+    border: 1px solid rgb(43, 0, 255);
+
+}
+.container_grid{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 2px;
+}
+.grid-box{
+    border: 1px solid black;
+
+}
+.item1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/21/09/48/hill-5324149_640.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.item2{
+    grid-row: 2/5;
+    background-color: cadetblue;
+    
+}
