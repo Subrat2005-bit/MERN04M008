@@ -1,0 +1,22 @@
+.grid-container{
+    max-width: 1024px;
+    padding: 10px;
+    background-color: rgb(245, 220, 220);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+    gap: 5px;
+}
+.item{
+    box-shadow: 3px 2px 2px;
+     border-radius:  5px;
+}
+
+
+.subu4{
+    
+    grid-column:1/3;
+    grid-row: 2/5;
+   background: linear-gradient(white ,rgb(116, 116, 231)) 4%;
+}

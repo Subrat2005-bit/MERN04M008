@@ -1,0 +1,27 @@
+.grid_container{
+    width: 600px;
+    height: 400px;
+    border: 2px solid rgb(11, 11, 11);
+    display: flex;
+    gap: 1;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+.grid-area-container{
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    
+
+}
+
+
+

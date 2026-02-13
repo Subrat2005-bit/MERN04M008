@@ -40,7 +40,7 @@ body{
 .login-container p{
     padding: 5px;
     color: rgba(53, 51, 51, 0.863);
-    font-size: 14px;
+    font-size: 10px;
 }
 
 form{
@@ -78,4 +78,8 @@ form input:focus{
     padding: 8px 25px;
     font-weight: bold;
     box-shadow: 2px 3px 5px rgb(70, 69, 69);
+}
+form p{
+    text-align: end ;
+    margin-bottom: 2px;
 }
