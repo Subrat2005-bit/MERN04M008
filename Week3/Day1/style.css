@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid black;    
+    transition: all 3s;
+    
+    /* transition-delay: 2s; */
+}
+.Box:hover{
+    /* background-color: aqua; */
+    /* transform: scale(4); */
+    /* transform: scaleX(4);  for X exis */
+    /* transform: scaleY(4); for Y exis */
+    /* transform: rotate(45rad); */
+    transform: scale(2) rotate(45deg) translate(100px, 100px);
+    animation-name: subu;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+
+}
+@keyframes subu {
+    from {
+        background-color: yellow;
+    }
+    to{
+        background-color: blue;
+    }
+
+}
